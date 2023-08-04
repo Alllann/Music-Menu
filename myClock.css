@@ -1,0 +1,64 @@
+body {
+    background: url(wall1.jpg) no-repeat;
+    background-size: 100%;
+}
+
+#canada, #romania {
+    position: relative;
+    top: 95%;
+    left: 18%;
+	color: white;
+}
+
+#clockContainer {
+    position: relative;
+    margin: auto;
+    height: 20vw;
+    width: 20vw;
+    background: url(clock.png) no-repeat;
+    background-size: 100%;
+    float: left;
+}
+
+#canadaHour, #canadaMinute, #canadaSecond,
+#romaniaHour, #romaniaMinute, #romaniaSecond {
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#canadaHour, #romaniaHour {
+    width: 1%;
+    height: 20%;
+    top: 30%;
+    left: 49.35%;
+    opacity: 0.8;
+}
+
+#canadaMinute, #romaniaMinute {
+    width: 0.8%;
+    height: 25%;
+    top: 25%;
+    left: 49.46%;
+    opacity: 0.8;
+}
+
+#canadaSecond, #romaniaSecond {
+    width: 0.5%;
+    height: 30%;
+    top: 20%;
+    left: 49.60%;
+    opacity: 0.8;
+}
+
+/* CSS for the Romania clock */
+#romaniaContainer {
+    position: relative;
+    margin: auto;
+    height: 20vw;
+    width: 20vw;
+    background: url(clock.png) no-repeat;
+    background-size: 100%;
+    float: right;
+}
